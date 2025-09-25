@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Button, Image } from 'react-native';
 import { StyleSheet } from 'react-native';
-import { ScrollView, TouchableOpacity } from 'react-native-web';
+import { TouchableOpacity } from 'react-native-web';
 
 export default function DetalhesLivro({ navigation, route }) {
     const { livro } = route.params;
